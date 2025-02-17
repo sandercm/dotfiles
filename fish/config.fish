@@ -29,5 +29,9 @@ function wendy
 	./wendy
 end
 
+function pgit
+	ssh-agent sh -c 'ssh-add ~/.ssh/id_ed25519_private; $argv'
+end
+
 alias bob='./bob-docker.sh'
 export TERM=xterm

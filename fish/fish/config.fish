@@ -24,6 +24,10 @@ function upload_regulus
 	bob firmware-upload-regulus --project samba
 end
 
+function pgit
+	ssh-agent sh -c 'ssh-add ~/.ssh/id_ed25519_private; $argv'
+end
+
 function wendy
 	pt
 	./wendy
