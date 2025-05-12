@@ -1,0 +1,14 @@
+selected_gpu: 1002:7550-148C:2435-0000:03:00.0
+plots_time_period: 60
+plots_per_row: 2
+plots:
+- - !Temperature edge
+  - !Temperature junction
+  - !Temperature mem
+- - GpuClock
+  - GpuTargetClock
+  - VramClock
+- - FanRpm
+  - FanPwm
+- - PowerAverage
+  - PowerCap

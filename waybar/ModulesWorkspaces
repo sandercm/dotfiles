@@ -50,7 +50,7 @@
 // PACMAN Style
 "hyprland/workspaces#pacman": {
 	"active-only": false,
-	"all-outputs": true,
+	"all-outputs": false,
 	"format": "{icon}",
 	"on-click": "activate",
 	"on-scroll-up": "hyprctl dispatch workspace e+1",

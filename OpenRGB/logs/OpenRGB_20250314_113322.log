@@ -1,0 +1,61 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250314_113322
+====================================================================================================
+
+1017  |Info:    ------------------------------------------------------
+1017  |Info:    |               Start device detection               |
+1017  |Info:    ------------------------------------------------------
+1018  |Info:    Initializing HID interfaces: Success
+1020  |Info:    ------------------------------------------------------
+1020  |Info:    |             Detecting I2C interfaces               |
+1020  |Info:    ------------------------------------------------------
+1020  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:7550 Subsystem: 148C:2435
+1020  |Info:    Registering I2C interface: /dev/i2c-20 Device 0000:0000 Subsystem: 0000:0000
+1021  |Info:    Registering I2C interface: /dev/i2c-10 Device 8086:4680 Subsystem: 1458:D000
+1021  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:7550 Subsystem: 148C:2435
+1021  |Info:    Registering I2C interface: /dev/i2c-19 Device 8086:7AA3 Subsystem: 1458:5001
+1021  |Info:    Registering I2C interface: /dev/i2c-17 Device 8086:4680 Subsystem: 1458:D000
+1021  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1021  |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+1021  |Info:    Registering I2C interface: /dev/i2c-25 Device 0000:0000 Subsystem: 0000:0000
+1021  |Info:    Registering I2C interface: /dev/i2c-15 Device 8086:4680 Subsystem: 1458:D000
+1021  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1021  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1021  |Info:    Registering I2C interface: /dev/i2c-23 Device 0000:0000 Subsystem: 0000:0000
+1021  |Info:    Registering I2C interface: /dev/i2c-13 Device 8086:4680 Subsystem: 1458:D000
+1021  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:7550 Subsystem: 148C:2435
+1021  |Info:    Registering I2C interface: /dev/i2c-21 Device 0000:0000 Subsystem: 0000:0000
+1021  |Info:    Registering I2C interface: /dev/i2c-11 Device 8086:4680 Subsystem: 1458:D000
+1021  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:7550 Subsystem: 148C:2435
+1022  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:7550 Subsystem: 148C:2435
+1022  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1022  |Info:    Registering I2C interface: /dev/i2c-18 Device 0000:0000 Subsystem: 0000:0000
+1022  |Info:    Registering I2C interface: /dev/i2c-9 Device 8086:4680 Subsystem: 1458:D000
+1022  |Info:    Registering I2C interface: /dev/i2c-16 Device 8086:4680 Subsystem: 1458:D000
+1022  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1022  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1022  |Info:    Registering I2C interface: /dev/i2c-24 Device 0000:0000 Subsystem: 0000:0000
+1022  |Info:    Registering I2C interface: /dev/i2c-14 Device 8086:4680 Subsystem: 1458:D000
+1022  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:7550 Subsystem: 148C:2435
+1022  |Info:    Registering I2C interface: /dev/i2c-22 Device 0000:0000 Subsystem: 0000:0000
+1022  |Info:    Registering I2C interface: /dev/i2c-12 Device 8086:4680 Subsystem: 1458:D000
+1022  |Info:    ------------------------------------------------------
+1022  |Info:    |               Detecting I2C devices                |
+1022  |Info:    ------------------------------------------------------
+1509  |Info:    ------------------------------------------------------
+1509  |Info:    |               Detecting I2C PCI devices            |
+1509  |Info:    ------------------------------------------------------
+1510  |Info:    ------------------------------------------------------
+1510  |Info:    |               Detecting HID devices                |
+1510  |Info:    ------------------------------------------------------
+1669  |Info:    [Z690 UD DDR4] Registering RGB controller
+1879  |Info:    ------------------------------------------------------
+1879  |Info:    |            Detecting libusb HID devices            |
+1879  |Info:    ------------------------------------------------------
+1889  |Info:    ------------------------------------------------------
+1889  |Info:    |              Detecting other devices               |
+1889  |Info:    ------------------------------------------------------
+1894  |Info:    ------------------------------------------------------
+1894  |Info:    |                Detection completed                 |
+1894  |Info:    ------------------------------------------------------
